@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Bootstrap 101 Template</title>
+  <title>RSSFeed Leitor</title>
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/normalize.css" rel="stylesheet" media="screen">
@@ -30,13 +30,13 @@
             <li class=""><a href="about.html">About</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-              <li class="">
-                <p class="navbar-btn">
-                  <a class="btn btn-primary active" href="categories.html" role="button">Categories</a>
-                  <a class="btn btn-primary" href="feeds.html" role="button">Feeds</a>
-                </p>
-              </li>
-            </ul>
+            <li class="">
+              <p class="navbar-btn">
+                <a class="btn btn-primary" href="categories.html" role="button">Categories</a>
+                <a class="btn btn-primary active" href="feeds.html" role="button">Feeds</a>
+              </p>
+            </li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
     </nav>
@@ -58,13 +58,38 @@
       </div>
 
       <button type="submit" class="btn btn-primary">save</button>
+      <button type="submit" class="btn btn-danger disabled">delete</button>
     </form>
     <br>
     <ul class="list-group">
-      <li class="list-group-item"><a href="">Java</a></li>
-      <li class="list-group-item"><a href="">Agile e TDD</a></li>
-      <li class="list-group-item"><a href="">Arquitetura</a></li>
-      <li class="list-group-item"><a href="">Design Patterns</a></li>
+      <li class="list-group-item"><a href="">http://www.guj.com.br/noticias/rss</a>
+
+        <p class="navbar-right">
+          <a href=""><span class="glyphicon glyphicon-trash">&nbsp;</span></a>
+        </p>
+
+      </li>
+      <li class="list-group-item"><a href="">http://blog.caelum.com.br/category/java/feed/</a>
+
+        <p class="navbar-right">
+          <a href=""><span class="glyphicon glyphicon-trash">&nbsp;</span></a>
+        </p>
+        
+      </li>
+      <li class="list-group-item"><a href="">http://www.javacodegeeks.com/category/agile/</a>
+
+        <p class="navbar-right">
+          <a href=""><span class="glyphicon glyphicon-trash">&nbsp;</span></a>
+        </p>
+
+      </li>
+      <li class="list-group-item"><a href="">http://www.infoq.com/br/feed/java</a>
+
+        <p class="navbar-right">
+          <a href=""><span class="glyphicon glyphicon-trash">&nbsp;</span></a>
+        </p>
+
+      </li>
     </ul>
 
 
